@@ -1,0 +1,24 @@
+{
+  "name": "00-basic-auth",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon -e '*' ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-react-views": "^0.11.0",
+    "mongoose": "^5.10.14",
+    "morgan": "~1.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
